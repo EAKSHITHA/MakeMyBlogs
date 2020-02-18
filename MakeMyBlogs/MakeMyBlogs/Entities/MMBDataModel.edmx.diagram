@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f3a9538694e548e1b39a33b975d6cdb6" Name="Diagram1">
+        <EntityTypeShape EntityType="MakeMyBlogsModel.User" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="MakeMyBlogsModel.Token" Width="1.5" PointX="3.25" PointY="4" />
+        <AssociationConnector Association="MakeMyBlogsModel.FK_Token_User" />
+        <EntityTypeShape EntityType="MakeMyBlogsModel.Blog" Width="1.5" PointX="2.875" PointY="0.5" />
+        <AssociationConnector Association="MakeMyBlogsModel.FK_Blog_User" ManuallyRouted="false" >
+        </AssociationConnector>
+        <EntityTypeShape EntityType="MakeMyBlogsModel.Comment" Width="1.5" PointX="5.625" PointY="0.75" />
+        <AssociationConnector Association="MakeMyBlogsModel.FK_Comment_Blog" />
+        <AssociationConnector Association="MakeMyBlogsModel.FK_Comment_Reply" />
+        <AssociationConnector Association="MakeMyBlogsModel.FK_Comment_User" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

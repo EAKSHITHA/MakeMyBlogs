@@ -1,0 +1,67 @@
+body {
+    margin-top: 74px;
+    /* background: #20313b; */
+    font-family: cursive;
+}
+
+.navbar-brand {
+    font-size: 2.0rem;
+    font-weight: 600;
+    font-family: cursive;
+    background: -webkit-linear-gradient(#eee 50%, rgba(230, 64, 179, 0.89));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* @media (min-width: 768px)
+<style> */
+.navbar-expand-md .navbar-nav .nav-link {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: cursive;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    color: rgba(230, 64, 179, 0.89);
+}
+
+.navbar-logo-img-size {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.footer-background-color {
+    padding-top: 20px;
+    background-color: #343a40;
+}
+
+.page-not-found-background-image {
+    min-height: calc(100vh - 193px);
+    background: url(../../assets/PageNotFound.png) center center;
+    background-repeat: no-repeat;
+}
+
+.page-not-found-background-color {
+    background-color: white;
+}
+.preloader-outer-div {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.5);
+    height: 100vh;
+    width: 100%;
+  }
+#upperdiv {
+    position: fixed;
+    z-index: 99998;
+    display: none;
+    top: -74px;
+}
+
+.preloader-position {
+position: fixed;
+top: 50%;
+left: 50%;
+z-index: 99999;
+}

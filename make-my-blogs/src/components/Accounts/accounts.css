@@ -1,0 +1,49 @@
+.login,.signup {
+    /* background-image: url(../../assets/open-book.png); */
+    /* background: -webkit-linear-gradient(#eee 50%, rgba(230, 64, 179, 0.89)); */
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
+
+.login-box,.signup-box {
+    margin-left: 400px;
+    width: 600px;
+    border: 0px solid black;
+    border-radius: 20px 20px;
+    padding: 30px;
+    box-shadow: 5px 10px 8px 5px #888888;
+}
+
+
+.login-box {
+    height: 400px;
+}
+
+.signup-box {
+    height: 660px;
+}
+
+h3 {
+    font-family: cursive;
+    padding-left: 398px;
+    padding-bottom: 5px;
+    font-weight: 700;
+}
+
+.changing-text {
+    color: rgba(241, 56, 149, 0.89);
+}
+
+.btn-primary {
+    background-color: rgba(241, 56, 149, 0.89);
+    border-color: rgba(241, 56, 149, 0.89);
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: rgba(245, 132, 188, 0.89);
+    border-color: rgba(245, 132, 188, 0.89);
+}   

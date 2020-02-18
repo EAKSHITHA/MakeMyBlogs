@@ -1,0 +1,17 @@
+/* home */
+h1 { 
+    /* color: white; */
+    font-family: cursive;
+}
+
+/* home */
+.tagLine {
+    padding-top: 200px;
+    text-align: center;
+}
+
+/* home */
+.changing-text {
+    color: rgba(230, 64, 179, 0.89);
+}
+

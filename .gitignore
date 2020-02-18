@@ -1,0 +1,27 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/make-my-blogs/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/make-my-blogs/coverage
+
+# production
+/make-my-blogs/build
+
+# misc
+.DS_Store
+/make-my-blogs/.env.local
+/make-my-blogs/.env.development.local
+/make-my-blogs/.env.test.local
+/make-my-blogs/.env.production.local
+
+/make-my-blogs/npm-debug.log*
+/make-my-blogs/yarn-debug.log*
+/make-my-blogs/yarn-error.log*
+
+/MakeMyBlogs/.vs
+/MakeMyBlogs/MakeMyBlogs/bin
+/MakeMyBlogs/MakeMyBlogs/obj
